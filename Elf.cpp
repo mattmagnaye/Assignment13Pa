@@ -5,7 +5,7 @@ namespace cs_creature {
     Elf::Elf() : Creature() {}
     Elf::Elf(int newStrength, int newHitpoints) : Creature(newStrength, newHitpoints) {}
 
-    std::string Elf::getSpecies() const { return "Elf"; }
+    std::string Elf::getSpecies() const { return "elf"; }
 
     int Elf::getDamage() const {
         int damage = Creature::getDamage();

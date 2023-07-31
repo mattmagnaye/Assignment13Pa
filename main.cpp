@@ -12,7 +12,7 @@ using namespace cs_creature;
 int main() {
     
     // Comment this line out before submitting to zyBooks!
-    srand(static_cast<unsigned>(time(nullptr)));  
+    //srand(static_cast<unsigned>(time(nullptr)));  
     
     Human h1;
     Elf e1;
